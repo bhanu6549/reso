@@ -59,6 +59,7 @@
 				<th>No Of Seat</th>
 				<th>Fee</th>
 				<th>Revenue</th>
+				<th>Action</th>
 			</tr>
 
 			<tbody>
@@ -70,6 +71,7 @@
 						<td>${rest.noOfSeat}</td>						
 						<td>${rest.fee}</td>
 						<td>${rest.revenue}</td>
+						<td><a href="/bookhotel">Book</a>
 						
 					</tr>
 				</c:forEach>

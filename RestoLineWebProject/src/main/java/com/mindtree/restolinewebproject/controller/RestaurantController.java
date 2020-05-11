@@ -35,5 +35,11 @@ public class RestaurantController {
 		model.addAttribute("restaurantlist", restaurantService.getAllRestaurant());
 		return "show-restaurants-page";
 	}
+	@RequestMapping("/bookhotel")
+	public String bookHotel(Model model)
+	{
+		model.addAttribute(model);
+		return "/restaurants";
+	}
 
 }
